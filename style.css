@@ -1,0 +1,496 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+header {
+    background-image: url(img/header-bg.png);
+    width: auto;
+    height: 850px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-nav-block {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+.nav-link:hover {
+    color: rgb(241, 195, 36);
+}
+
+.header-nav {
+    padding: 30px 24px;
+}
+
+.header-links>a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+}
+
+.header-links>a:hover {
+    color: rgb(241, 195, 36);
+}
+
+.header-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 250px;
+    flex-wrap: wrap;
+}
+
+.header-title>h2 {
+    color: white;
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 68px;
+    font-family: 'Leckerli One', cursive;
+}
+
+.header-title>p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 23px;
+}
+
+.abbout-us {
+    padding: 90px 25px;
+}
+
+.abbout-us>h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.714px;
+}
+
+.abbout-us>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(110, 110, 110);
+    margin-bottom: 35px;
+}
+
+.abbout-us>a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: white;
+    background-color: rgb(36, 184, 241);
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 700;
+}
+
+.abbout-us>a:hover {
+    background-color: rgb(241, 195, 36);
+}
+
+.about-us-zebra {
+    background-image: url(img/zebra.webp);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Our Tours */
+.our-tours {
+    background-color: black;
+    text-align: center;
+    padding: 90px 0 70px 0;
+}
+
+.our-tours-title>p {
+    color: rgb(241, 195, 36);
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.our-tours-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.our-tours-cards {
+    text-align: left;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    max-width: 370px;
+}
+
+.our-tours-card-name {
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.our-tours-card-desc {
+    color: rgb(110, 110, 110);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.our-tours-card-dp {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(134, 131, 131);
+    margin-bottom: 30px;
+}
+
+.our-tours-link {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10.8px;
+    font-weight: 700;
+}
+
+.our-tours-link:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Form */
+
+.form-secsion {
+    background-color: black;
+}
+
+.form-leo {
+    background-image: url(img/leopard.webp);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.09);
+    padding: 35px;
+    text-align: center;
+}
+
+.form-title>h2 {
+    color: rgb(241, 195, 36);
+    font-family: 'Dosis', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.form-desc {
+    color: rgb(110, 110, 110);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.form-input>input {
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 25px;
+    color: rgb(156, 156, 156);
+    background-color: rgb(46, 46, 46);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.form-input>button {
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(241, 195, 36);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/* Additional Services */
+.additional-services {
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.additional-services-title>p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.additional-services-card {
+    max-width: 360px;
+    margin: 0 15px;
+    max-width: 250px;
+}
+
+.additional-services-desc {
+    margin-top: 20px;
+}
+
+.additional-services-desc>p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.additional-services-desc>p>span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(110, 110, 110);
+}
+
+/* Reasons Safari */
+
+.reasons-safari {
+    background-image: url(img/bg-reasons.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.reasons-safari-title {
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.reasons-safari-section {
+    padding: 0 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.reasons-safari-card {
+    width: 230px;
+    background-color: rgba(20, 20, 20, 0.75);
+    padding: 15px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reasons-safari-card>div>img {
+    max-width: 50px;
+}
+
+.reasons-safari-desc>p {
+    margin-top: 20px;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.reasons-safari-desc>p>span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(110, 110, 110);
+}
+
+/* ready-to-go */
+
+.ready-to-go {
+    background-image: url(img/bg-ready-to-go.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 100px 25px;
+}
+
+.ready-to-go>div>h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+.ready-to-go>div>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ready-to-go>div>a {
+    background-color: rgb(36, 184, 241);
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+/* Contacts */
+
+.contacts {
+    background-color: black;
+    padding: 70px 30px 90px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-block {
+    background-color: rgba(255, 255, 255, 0.09);
+    padding: 35px;
+    max-width: 500px;
+}
+
+.contacts h2 {
+    color: rgb(241, 195, 36);
+    font-family: 'Dosis', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.contacts>div>div>p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.contacts h3 {
+    color: rgb(241, 195, 36);
+    font-family: 'Dosis', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.contacts-desc p {
+    color: rgb(110, 110, 110);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+/* Footer */
+.footer-section {
+    padding: 120px 24px 15px 24px;
+    text-align: center;
+    background-color: rgb(247, 249, 251);
+}
+
+.footer-logo>p {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    margin: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.footer-desc p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Media */
+@media (min-width: 750px) {
+    .about-us-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .abbout-us {
+        width: 75%;
+    }
+
+    .about-us-zebra {
+        display: flex;
+        background-image: url(img/zebra.webp);
+        width: 100%;
+        background-position: center;
+        height: auto;
+    }
+
+    .form-secsion {
+        display: flex;
+        padding-right: 25px;
+    }
+
+    .form-leo {
+        display: flex;
+        background-image: url(img/leopard.webp);
+        width: 100%;
+        background-position: top;
+        height: auto;
+    }
+
+    .header-title>h2 {
+        font-size: 120px;
+    }
+
+    .header-title>p {
+        font-size: 28px;
+    }
+
+    .ready-to-go {
+        padding-right: 50%;
+    }
+}
