@@ -67,9 +67,6 @@
                             <span style="color:rgb(241, 195, 36)">${tour.price}</span>
                         </p>
                     </div>
-                    <div>
-                        <a href="${tour.link}" class="our-tours-link">LEARN MORE</a>
-                    </div>
                 </div>
             `
         }
